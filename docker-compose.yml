@@ -1,0 +1,7 @@
+version: '1'
+  app:
+    ports:
+    volumes:
+    env_file: .env
+    command: bash -c 'php artisan serve --host 0.0.0.0'
+
